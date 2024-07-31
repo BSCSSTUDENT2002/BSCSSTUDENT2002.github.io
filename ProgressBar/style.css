@@ -1,0 +1,51 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    overflow:hidden
+}
+
+.container {
+    display: flex;
+    height: 50%;
+    gap: 3rem;
+    position: relative;
+    transition: all 10s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    --before-width:0
+    /* Add transition here */
+}
+
+.btn-container{
+display: flex;
+justify-content: center;
+gap :4rem
+}
+.step {
+    border-radius: 50%;
+    background: whitesmoke;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border: 2px solid transparent;
+    z-index: 1;
+    color: grey;
+    transition: background ease-in-out 1s;
+}
+
+.container::before {
+    content: "";
+    height: 4px;
+    width: var(--before-width);
+    position: absolute;
+    background-color: red;
+    transition: all ease-in .5s;
+    left: 41%;
+}
+.Prev{
+    transition: all ease .5s;
+}
+.active{
+    background-color: red;
+}
