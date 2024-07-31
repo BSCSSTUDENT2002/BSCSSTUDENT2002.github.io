@@ -35,5 +35,3 @@ $(".Prev").on("click", () => {
 
     $(".Prev").attr('disabled', index === 0 ? 'disabled' : null);
 });
-
-
