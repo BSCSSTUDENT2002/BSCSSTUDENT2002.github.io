@@ -1,0 +1,31 @@
+body{
+    height: 100%;
+    width: 100%;
+    /* box-sizing: border-box; */
+    background-color: azure;
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.one{
+    background-color: aqua;
+    flex: .5;
+    transition: all ease-out .5s;
+}
+.two{
+    background-color: black;
+    flex: .5;
+    transition: all ease-in .5s;
+
+}
+.one:hover {
+
+    flex:1.5;
+}
+.two:hover{
+    flex:1.5
+}
+
