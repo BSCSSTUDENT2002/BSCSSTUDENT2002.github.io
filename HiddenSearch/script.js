@@ -3,6 +3,5 @@ toggle = 0;
 $('.btn').on('click', function () {
 $('input').toggleClass("scale")
 $('.btn').addClass('btnn')
-removeBtnnClass()
 }
 )
