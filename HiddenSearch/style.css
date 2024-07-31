@@ -16,6 +16,8 @@ body{
 input{
 transition: all ease-in-out .5s;
 width: 20%;
+border-radius: 10px;
+padding-inline: 35px;
 }
 .scale{
     width:0;
@@ -26,7 +28,8 @@ button{
 }
 }
 .btnn {
-    
+    border-radius: 20px;
+    padding: .5rem;
     transition: all ease-in-out .5s;
     
   }
