@@ -1,0 +1,28 @@
+.container{
+    display: block;
+    margin: auto;
+    height: 90vh;
+    width: 40vw;
+    background-image: url(https://images.unsplash.com/photo-1623601691948-49dcfdadcdad?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Heart{
+    position: absolute;
+    top: 0;
+    transition: scale ease-out 1s;
+    color: red;
+    opacity: 0;
+   
+    
+}
+@keyframes anime {
+100%{
+    transform: scale(16);
+    opacity: 1;
+}
+}
+.animation{
+    animation: anime linear 2s;
+}
