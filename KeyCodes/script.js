@@ -14,10 +14,9 @@ $('#1, #2, #3').css({
     'border': '2px solid grey',
     'height': '50px',
     'width':'150px',
-    'background-color': '#f1faee',
-    // 'text-direct'
+    'background-color': '#f1faee',  // 'text-direct'
 });
-
+$('#3').css('font-size','1.5rem')
 })
 function app(e){
     $('#1').text(e.key);
