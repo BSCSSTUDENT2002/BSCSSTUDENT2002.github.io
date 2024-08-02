@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    position: relative;
+}
+.font{
+    font-size: large;
+    top: 30%;
+    left: 10%;
+}
+.append{
+    display: flex;
+    font-size: 2rem;
+    gap: 4rem;
+    /* border: 2px solid black; */
+    align-items: center;
+    text-align: center;
+
+}
+
